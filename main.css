@@ -1,0 +1,303 @@
+
+/*......SECTION......*/
+
+.section-1 {background-color: #87509C;}
+.section-1.margin-top {margin-top: calc(30px + 6vw);}
+.section-1.margin-bottom {margin-bottom:calc(20px + 3vw);}
+
+.section-1-btn {
+  background:    #eb7d4b;
+  border-radius: 4px;
+  box-shadow:    0 4px #ff5000;
+  padding:       1vw 4vw;
+  color:         #ffffff;
+  display:       inline-block;
+  font:          normal bold 18px/1 "Open Sans", sans-serif;
+  font-size: calc(8px + 0.5vw);
+  text-align:    center;
+
+  margin-top: calc(20px + 3vw);
+  margin-bottom: calc(40px + 3vw);
+}
+
+.section-2 {background-color: #17C2A4;}
+
+.img-fit-section-2 {
+  width: 60%;
+  object-fit: contain;
+  align-self: center;
+  padding-bottom: 3vw;
+}
+
+.section-3 {
+  background-color: #E7F1F8;
+}
+
+.img-fit-section-3 {
+  width: 75%;
+  object-fit: contain;
+  align-self: center;
+  padding-bottom: 3vw;
+  border-radius: 50%;
+}
+
+.section-4 {background-color: #FFFFFF;}
+
+.img-fit-section-4 {
+  width: 80%;
+  object-fit: contain;
+  align-self: center;
+  margin-bottom: calc(-10px - 1vw);
+}
+
+.section-5 {background-color: #FFDD99;}
+
+.section-5-button-group {
+  background:    black;
+  border-radius: 4px;
+  padding:       0.6vw 1vw;
+  width: 6vw;
+  color:         black;
+  background-color: #EBC985;
+  display:       inline-block;
+  font:          normal 18px/1 "Open Sans", sans-serif;
+  font-size: calc(8px + 0.5vw);
+  text-align:    center;
+
+  margin-top: calc(20px + 1vw);
+  margin-bottom: calc(20px + 1vw);
+}
+
+.section-5-button-group:focus {
+  background-color: black !important;
+  color: #FFDD99;
+  outline:none;
+  box-shadow: none;
+}
+
+.section-5-button-group.main-button {
+  background-color: white;
+}
+
+
+.section-5-button {
+  background:    #17C2A4;
+  border-radius: 4px;
+  box-shadow:    0 4px #17C2A4;
+  padding:       1.4vw 3vw;
+  color:         #ffffff;
+  display:       inline-block;
+  font:          normal 18px/1 "Open Sans", sans-serif;
+  font-size: calc(6px + 0.5vw);
+  text-align:    center;
+
+  margin-top: calc(20px + 3vw);
+}
+
+.img-fit-section-5 {
+  width: 95%;
+  object-fit: contain;
+  align-self: center;
+  margin-bottom: calc(10px + 1vw);
+}
+
+.img-titre-section-5 {
+  font-size: calc(4px + 1vw);
+  margin-bottom: calc(30px + 3vw);
+}
+
+.section-6 {
+  background-color: #D74680;
+  height: calc(440px + 30vw);
+}
+
+.img-fit-section-6 {
+  width: 70%;
+  object-fit: contain;
+  align-self: center;
+  margin-bottom: calc(-10px - 1vw);
+  border-radius: 50%;
+}
+
+.petit-text-section-6{
+  font-size: calc(6px + .6vw);
+  padding-right: calc(20px + 2vw);
+}
+
+.padding-section-6 {
+  padding-left: calc(10px + 1vw);
+}
+
+.margin-section-6-1 {
+  margin-top: calc(20px + 2vw);
+}
+
+.margin-section-6-2 {
+  margin-top: calc(60px + 6vw);
+}
+
+.section-7 {
+  background-color: #3C5499;
+  height: 824px;
+}
+
+.section-8 {
+  background-color: #344B8E;
+  height: 120px;
+}
+
+
+
+/*......GENERAL......*/
+
+.navbar-space {
+  margin-left: 20px;
+}
+
+.img-line {
+  opacity: 0.2;
+  margin-top: calc(1vw - 20px);
+}
+
+.titres {
+  font-size: calc(12px + 1.5vw);
+  padding-top: calc(10px + 4.5vw)
+}
+
+.bas-line {
+  font-size: calc(4px + 1vw);
+}
+
+.petit-titre {
+  font-size: calc(6px + 1vw);
+  white-space: pre;
+}
+
+.petit-text {
+  font-size: calc(4px + .6vw);
+  padding-left: calc(5px + 0.5vw);
+  padding-right: calc(5px + 0.5vw);
+}
+
+.padding-top-image {
+  padding-top: calc(10px + 3vw);
+}
+
+.social-icons {
+  width: 80%;
+  object-fit: contain;
+  align-self: center;
+}
+
+.param-home {
+  background-color: #643A79;
+  padding: 3px;
+  margin-top: 5px
+}
+
+/*......BARRE DE PROGRESSION CIRCULAIRE......*/
+
+
+.couleur-1 {
+  border-color: #30BAE7;
+}
+.couleur-2 {
+  border-color: #D74680;
+}
+.couleur-3 {
+  border-color: #15C7A8;
+}
+.couleur-4 {
+  border-color: #EB7D4B;
+}
+
+.progress-circle{
+  position: relative;             /* pour servir de référent */
+  box-sizing: border-box;         /* prise en compte bordure dans la dimension */
+  font-size: calc(40px + 8vw);                 /* pour définir les dimensions */
+  width: 1em;                     /* fixe la largeur */
+  height: 1em;                    /* fixe la hauteur */
+  border-radius: 50%;             /* rendu aspect circulaire */
+  border: .08em solid #CDE;       /* couleur de fond de l'anneau */
+  background-color: #FFF;         /* couleur de fond de la progress bar */
+}
+
+.progress-masque {
+  position: absolute;
+  width: 1em;                     /* 100% de la largeur */
+  height: 1em;                    /* 100% de la hauteur */
+  left: -.08em;                   /* décalage de la largeur bordure de la gauge */
+  top: -.08em;                    /* décalage de la largeur bordure de la gauge */
+  clip: rect(0, 1em, 1em, .5em);  /* par défaut seule la partie droite est visible */
+}
+
+.progress-circle[data-value^='5']:not([data-value='5']):not([data-value^='5.']) .progress-masque,
+.progress-circle[data-value^='6']:not([data-value='6']):not([data-value^='6.']) .progress-masque,
+.progress-circle[data-value^='7']:not([data-value='7']):not([data-value^='7.']) .progress-masque,
+.progress-circle[data-value^='8']:not([data-value='8']):not([data-value^='8.']) .progress-masque,
+.progress-circle[data-value^='9']:not([data-value='9']):not([data-value^='9.']) .progress-masque,
+.progress-circle[data-value^='100'] .progress-masque {
+  clip: rect(auto, auto, auto, auto);
+}
+
+.progress-barre,
+.progress-sup50 {
+  position: absolute;
+  box-sizing: border-box;         /* prise en compte bordure dans la dimension */
+  border-width: 0.08em;            /* largeur bordure de la gauge */
+  border-style: solid;
+  border-radius: 50%;             /* rendu aspect circulaire */
+  width: 1em;                     /* largeur à 100% */
+  height: 1em;                    /* hauteur à 100% */
+  clip: rect(0, .5em, 1em, 0);    /* on ne garde que la partie gauche */
+}
+
+.progress-sup50 {
+  display: none;
+  clip: rect(0, 1em, 1em, .5em);
+}
+
+.progress-circle[data-value^='5']:not([data-value='5']):not([data-value^='5.']) .progress-sup50,
+.progress-circle[data-value^='6']:not([data-value='6']):not([data-value^='6.']) .progress-sup50,
+.progress-circle[data-value^='7']:not([data-value='7']):not([data-value^='7.']) .progress-sup50,
+.progress-circle[data-value^='8']:not([data-value='8']):not([data-value^='8.']) .progress-sup50,
+.progress-circle[data-value^='9']:not([data-value='9']):not([data-value^='9.']) .progress-sup50,
+.progress-circle[data-value^='100'] .progress-sup50 {
+  display:block;
+}
+
+.progress-circle:after {
+  content: attr(data-value) "%";  /* récup. valeur de progression */
+  font-size: 0.25em;              /* taille de la font en % du parent */
+  height: 100%;                   /* centrage dans le parent */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /*-- pour effet shadow intérieur --*/
+  border-radius: 50%;
+  box-shadow: 0 0 .5em rgba(0, 0, 0, .5) inset;
+}
+
+.progress-circle[data-value="0"]     .progress-barre {transform: rotate(0.00deg)}
+.progress-circle[data-value="5"]     .progress-barre {transform: rotate(18.00deg)}
+.progress-circle[data-value="10"]     .progress-barre {transform: rotate(36.00deg)}
+.progress-circle[data-value="15"]    .progress-barre {transform: rotate(54.00deg)}
+.progress-circle[data-value="20"]    .progress-barre {transform: rotate(72.00deg)}
+.progress-circle[data-value="25"]    .progress-barre {transform: rotate(90.00deg)}
+.progress-circle[data-value="30"]    .progress-barre {transform: rotate(108.00deg)}
+.progress-circle[data-value="35"]    .progress-barre {transform: rotate(126.00deg)}
+.progress-circle[data-value="40"]    .progress-barre {transform: rotate(144.00deg)}
+.progress-circle[data-value="45"]    .progress-barre {transform: rotate(162.00deg)}
+.progress-circle[data-value="50"]    .progress-barre {transform: rotate(180.00deg)}
+.progress-circle[data-value="55"]    .progress-barre {transform: rotate(198.00deg)}
+.progress-circle[data-value="57"]    .progress-barre {transform: rotate(205.20deg)}
+.progress-circle[data-value="60"]    .progress-barre {transform: rotate(216.00deg)}
+.progress-circle[data-value="65"]    .progress-barre {transform: rotate(234.00deg)}
+.progress-circle[data-value="70"]    .progress-barre {transform: rotate(252.00deg)}
+.progress-circle[data-value="75"]    .progress-barre {transform: rotate(270.00deg)}
+.progress-circle[data-value="80"]    .progress-barre {transform: rotate(288.00deg)}
+.progress-circle[data-value="85"]    .progress-barre {transform: rotate(306.00deg)}
+.progress-circle[data-value="90"]    .progress-barre {transform: rotate(324.00deg)}
+.progress-circle[data-value="95"]    .progress-barre {transform: rotate(342.00deg)}
+.progress-circle[data-value="100"]    .progress-barre {transform: rotate(360.00deg)}
