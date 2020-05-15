@@ -1,6 +1,3 @@
-
-
-
 /*......SECTION......*/
 
 .section-1 {background-color: #87509C;}
@@ -27,9 +24,7 @@
   padding-bottom: 3vw;
 }
 
-.section-3 {
-  background-color: #E7F1F8;
-}
+.section-3 {background-color: #E7F1F8;}
 
 .img-fit-section-3 {
   width: 75%;
@@ -70,10 +65,7 @@
   box-shadow: none;
 }
 
-.section-5-button-group.main-button {
-  background-color: white;
-}
-
+.section-5-button-group.main-button {background-color: white;}
 
 .section-5-button {
   background:    #17C2A4;
@@ -93,9 +85,7 @@
   align-self: center;
 }
 
-.section-6 {
-  background-color: #D74680;
-}
+.section-6 {background-color: #D74680;}
 
 .img-fit-section-6 {
   width: 70%;
@@ -119,35 +109,16 @@
   text-align:    center;
 }
 
-.section-8 {
-  background-color: #344B8E;
-}
+.section-8 {background-color: #344B8E;}
 
-.footer-text {
-  font-size: calc(10px + 0.7vw);
-}
-
+.footer-text {font-size: calc(10px + 0.7vw);}
 
 
 /*......GENERAL......*/
 
 .img-line {opacity: 0.2;}
 
-.titres {
-  font-size: calc(18px + 1vw);
-}
-
-.bas-line {
-  font-size: calc(4px + 1vw);
-}
-
-.petit-titre {
-  font-size: calc(6px + 1vw);
-}
-
-.petit-text {
-  font-size: calc(4px + .6vw);
-}
+.titres {font-size: calc(18px + 1vw);}
 
 .social-icons {
   max-width: 128px;
@@ -166,9 +137,7 @@
   height: 28vw;
 }
 
-.img-flip {
-  transform: scale(-1, 1);
-}
+.img-flip {transform: scale(-1, 1);}
 
 .my-form {
   background-color: #273A71;
@@ -177,9 +146,7 @@
   resize: none;
 }
 
-.grand-form {
-  height: calc(100px + 20vw) !important;
-}
+.grand-form {height: calc(100px + 20vw) !important;}
 
 /*......BARRE DE PROGRESSION CIRCULAIRE......*/
 
