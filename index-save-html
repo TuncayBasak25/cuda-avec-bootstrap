@@ -12,9 +12,9 @@
 </head>
 
 <body>
-  <div class="container-fluid section-1 pt-5 pb-5">
+  <div class="container-fluid bg-1 pt-5 pb-5">
     <div class="container text-center">
-      <nav class="navbar navbar-expand-lg navbar-light text-right">
+      <nav class="navbar navbar-expand-lg text-right">
         <a class="navbar-brand" href="#"><img class="mb-5" src="img/cuda.png" alt="cuda.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -22,7 +22,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link text-white ml-2 mr-2 param-home rounded" href="#">&nbsp&nbspHOME&nbsp&nbsp</a>
+              <a class="nav-link text-white ml-2 mr-2 bg-btn-home pl-3 pr-3 rounded" href="#">&nbsp&nbspHOME&nbsp&nbsp</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white ml-2 mr-2" href="#">ABOUT</a>
@@ -40,25 +40,25 @@
         </div>
       </nav>
       <h1 class="text-white mt-5 titres">Hi there! We are the new kids on the block and we build awesome websites and mobile apps.</h1>
-      <button type="button" class="btn section-1-btn mt-5 mb-5">WORK WITH US!</button>
+      <button type="button" class="btn btn-1 mt-5 mb-5">WORK WITH US!</button>
     </div>
   </div>
 
-  <div class="container-fluid section-2 pt-5 pb-5">
+  <div class="container-fluid bg-2 pt-5 pb-5">
     <div class="container text-center">
-      <h1 class="text-dark titres pt-5">SERVICES WE PROVIDE</h1>
-      <img class="img-line mb-2" src="img/line.png" alt="line.png">
+      <h1 class="text-dark pt-5">SERVICES WE PROVIDE</h1>
+      <img class="mb-2" src="img/line-opaque.png" alt="line">
       <h5 class="text-dark pb-5">We are working with both individuals and businesses from all over the globe to create awosome website and application.</h5>
       <div class="row">
         <div class="col-lg">
           <div class="row">
             <div class="col-sm mb-5">
-              <img class="img-fit-section-2" src="img/flag.png" alt="flag">
+              <img class="w-50 mb-5" src="img/flag.png" alt="flag">
               <h4 class="">BRANDING</h4>
               <p class="mt-4">Lorem ipsum dolor sit amet consectetuer adipiscing elit, sed diam nonummy nibh.</p>
             </div>
             <div class="col-sm">
-              <img class="img-fit-section-2" src="img/crayon.png" alt="crayon">
+              <img class="w-50 mb-5" src="img/crayon.png" alt="crayon">
               <h4 class="">DESIGN</h4>
               <p class="mt-4 ">Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
             </div>
@@ -67,12 +67,12 @@
         <div class="col-lg">
           <div class="row">
             <div class="col-sm">
-              <img class="img-fit-section-2" src="img/gears.png" alt="gears">
+              <img class="w-50 mb-5" src="img/gears.png" alt="gears">
               <h4 class="">DEVELOPEMENT</h4>
               <p class="mt-4 ">At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</p>
             </div>
             <div class="col-sm">
-              <img class="img-fit-section-2" src="img/rocket.png" alt="rocket">
+              <img class="w-50 mb-5" src="img/rocket.png" alt="rocket">
               <h4 class="">ROCKET SCIENCE</h4>
               <p class="mt-4 ">>Et harum quidem rerum est et expedita distintio. Nam libero tempore.</p>
             </div>
@@ -82,39 +82,39 @@
     </div>
   </div>
 
-  <div class="container-fluid section-3 pt-5 pb-5">
+  <div class="container-fluid bg-3 pt-5 pb-5">
     <div class="container text-center">
-      <h1 class="text-dark titres pt-5">MEET OUR BEAUTIFUL TEAM</h1>
-      <img class="img-line mb-2" src="img/line.png" alt="line.png">
+      <h1 class="text-dark pt-5">MEET OUR BEAUTIFUL TEAM</h1>
+      <img class="mb-2" src="img/line-opaque.png" alt="line">
       <h5 class="text-dark pb-5">We are a small team of designers and developers, who help brands with big ideas.</h5>
       <div class="row">
         <div class="col-lg">
           <div class="row">
             <div class="col-sm">
-              <img class="img-fit-section-3" src="img/batman.png" alt="batman">
+              <img class="w-75 rounded-circle mb-5" src="img/batman.png" alt="batman">
               <h4 class="">BATMAN</h4>
               <p class="text-info">CEO / Marketing Guru</p>
               <p class="mb-3">"You either die a hero or you live long enoough to see yourself become a human."</p>
               <div class="d-flex justify-content-center">
                 <div class="w-75 d-flex mb-5">
-                  <div class="w-25"><a href="https://www.facebook.com/batmanmovieofficial/"><img class="social-icons" src="img/facebook.png" alt="facebook"></a></div>
-                  <div class="w-25"><a href="https://twitter.com/hashtag/batman?lang=en"><img class="social-icons" src="img/twitter.png" alt="twitter"></a></div>
-                  <div class="w-25"><a href="https://www.linkedin.com/in/batman-bruce-wayne-43275131/"><img class="social-icons" src="img/linkedin.png" alt="linkedin"></a></div>
-                  <div class="w-25"><a href="https://outlook.live.com/"><img class="social-icons" src="img/mail.png" alt="mail"></a></div>
+                  <div class="w-25"><a href="https://www.facebook.com/batmanmovieofficial/"><img class="w-75" src="img/facebook.png" alt="facebook"></a></div>
+                  <div class="w-25"><a href="https://twitter.com/hashtag/batman?lang=en"><img class="w-75" src="img/twitter.png" alt="twitter"></a></div>
+                  <div class="w-25"><a href="https://www.linkedin.com/in/batman-bruce-wayne-43275131/"><img class="w-75" src="img/linkedin.png" alt="linkedin"></a></div>
+                  <div class="w-25"><a href="https://outlook.live.com/"><img class="w-75" src="img/mail.png" alt="mail"></a></div>
                 </div>
               </div>
             </div>
             <div class="col-sm">
-              <img class="img-fit-section-3" src="img/ironman.png" alt="ironman">
+              <img class="w-75 rounded-circle mb-5" src="img/ironman.png" alt="ironman">
               <h4 class="">IRONMAN</h4>
               <p class="text-info">Creative Director</p>
               <p class="mb-3">"Heroes are made by the paths they choose, not the powers they are graced with."</p>
               <div class="d-flex justify-content-center">
                 <div class="w-75 d-flex mb-5">
-                  <div class="w-25"><a href="https://www.facebook.com/ironman/"><img class="social-icons" src="img/facebook.png" alt="facebook"></a></div>
-                  <div class="w-25"><a href="https://twitter.com/iron_man?lang=en"><img class="social-icons" src="img/twitter.png" alt="twitter"></a></div>
-                  <div class="w-25"><a href="https://www.linkedin.com/in/iron-man-942a7918a/?trk=public_profile_samename_mini-profile_title&originalSubdomain=uk"><img class="social-icons" src="img/linkedin.png" alt="linkedin"></a></div>
-                  <div class="w-25"><a href="https://outlook.live.com/"><img class="social-icons" src="img/mail.png" alt="mail"></a></div>
+                  <div class="w-25"><a href="https://www.facebook.com/ironman/"><img class="w-75" src="img/facebook.png" alt="facebook"></a></div>
+                  <div class="w-25"><a href="https://twitter.com/iron_man?lang=en"><img class="w-75" src="img/twitter.png" alt="twitter"></a></div>
+                  <div class="w-25"><a href="https://www.linkedin.com/in/iron-man-942a7918a/?trk=public_profile_samename_mini-profile_title&originalSubdomain=uk"><img class="w-75" src="img/linkedin.png" alt="linkedin"></a></div>
+                  <div class="w-25"><a href="https://outlook.live.com/"><img class="w-75" src="img/mail.png" alt="mail"></a></div>
                 </div>
               </div>
             </div>
@@ -123,30 +123,30 @@
         <div class="col-lg">
           <div class="row">
             <div class="col-sm">
-              <img class="img-fit-section-3" src="img/panther.png" alt="black panther">
+              <img class="w-75 rounded-circle mb-5" src="img/panther.png" alt="black panther">
               <h4 class="">BLACK PANTHER</h4>
               <p class="text-info">Lead Designer</p>
               <p class="mb-3">"Vengence has consumed you. It's consuming them. I am done letting it consuming me."</p>
               <div class="d-flex justify-content-center">
                 <div class="w-75 d-flex mb-5">
-                  <div class="w-25"><a href="https://www.facebook.com/BlackPantherMovie/"><img class="social-icons" src="img/facebook.png" alt="facebook"></a></div>
-                  <div class="w-25"><a href="https://twitter.com/hashtag/blackpanther%21?lang=en"><img class="social-icons" src="img/twitter.png" alt="twitter"></a></div>
-                  <div class="w-25"><a href="https://www.linkedin.com/company/black-panther/"><img class="social-icons" src="img/linkedin.png" alt="linkedin"></a></div>
-                  <div class="w-25"><a href="https://outlook.live.com/"><img class="social-icons" src="img/mail.png" alt="mail"></a></div>
+                  <div class="w-25"><a href="https://www.facebook.com/BlackPantherMovie/"><img class="w-75" src="img/facebook.png" alt="facebook"></a></div>
+                  <div class="w-25"><a href="https://twitter.com/hashtag/blackpanther%21?lang=en"><img class="w-75" src="img/twitter.png" alt="twitter"></a></div>
+                  <div class="w-25"><a href="https://www.linkedin.com/company/black-panther/"><img class="w-75" src="img/linkedin.png" alt="linkedin"></a></div>
+                  <div class="w-25"><a href="https://outlook.live.com/"><img class="w-75" src="img/mail.png" alt="mail"></a></div>
                 </div>
               </div>
             </div>
             <div class="col-sm">
-              <img class="img-fit-section-3" src="img/spiderman.png" alt="spiderman">
+              <img class="w-75 rounded-circle mb-5" src="img/spiderman.png" alt="spiderman">
               <h4 class="">SPIDERMAN</h4>
               <p class="text-info">SEO / Developer</p>
               <p class="mb-3">"Secrets have a cost, they're not for free. Not now, not ever. Dermatologiquement."</p>
               <div class="d-flex justify-content-center">
                 <div class="w-75 d-flex mb-5">
-                  <div class="w-25"><a href="https://www.facebook.com/spiderman/"><img class="social-icons" src="img/facebook.png" alt="facebook"></a></div>
-                  <div class="w-25"><a href="https://twitter.com/SpiderMan?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img class="social-icons" src="img/twitter.png" alt="twitter"></a></div>
-                  <div class="w-25"><a href="https://www.linkedin.com/showcase/spiderman/about/"><img class="social-icons" src="img/linkedin.png" alt="linkedin"></a></div>
-                  <div class="w-25"><a href="https://outlook.live.com/"><img class="social-icons" src="img/mail.png" alt="mail"></a></div>
+                  <div class="w-25"><a href="https://www.facebook.com/spiderman/"><img class="w-75" src="img/facebook.png" alt="facebook"></a></div>
+                  <div class="w-25"><a href="https://twitter.com/SpiderMan?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img class="w-75" src="img/twitter.png" alt="twitter"></a></div>
+                  <div class="w-25"><a href="https://www.linkedin.com/showcase/spiderman/about/"><img class="w-75" src="img/linkedin.png" alt="linkedin"></a></div>
+                  <div class="w-25"><a href="https://outlook.live.com/"><img class="w-75" src="img/mail.png" alt="mail"></a></div>
                 </div>
               </div>
             </div>
@@ -156,10 +156,10 @@
     </div>
   </div>
 
-  <div class="container-fluid section-4 pt-5 pb-5">
+  <div class="container-fluid bg-4 pt-5 pb-5">
     <div class="container text-center">
-      <h1 class="text-dark titres pt-5">WE GOT SKILLS</h1>
-      <img class="img-line mb-2" src="img/line.png" alt="line.png">
+      <h1 class="text-dark pt-5">WE GOT SKILLS</h1>
+      <img class="mb-2" src="img/line-opaque.png" alt="line">
       <h5 class="text-dark pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
       <div class="row">
         <div class="col-md">
@@ -210,16 +210,16 @@
     </div>
   </div>
 
-  <div class="container-fluid section-5 pt-5 pb-5">
+  <div class="container-fluid bg-5 pt-5 pb-5">
     <div class="container text-center">
-      <h1 class="text-dark titres pt-5">OUR PORTFOLIO</h1>
-      <img class="img-line mb-2" src="img/line.png" alt="line.png">
+      <h1 class="text-dark pt-5">OUR PORTFOLIO</h1>
+      <img class="mb-2" src="img/line-opaque.png" alt="line">
       <h5 class="text-dark pb-5">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit.</h5>
       <div class="container d-flex justify-content-center pb-5">
-        <button type="button" class="btn section-5-button-group main-button ml-2 mr-2" data-target="#carousel-section-5" data-slide-to="0">ALL</button>
-        <button type="button" class="btn section-5-button-group ml-2 mr-2" data-target="#carousel-section-5" data-slide-to="1">WEB</button>
-        <button type="button" class="btn section-5-button-group ml-2 mr-2" data-target="#carousel-section-5" data-slide-to="2">APPS</button>
-        <button type="button" class="btn section-5-button-group ml-2 mr-2" data-target="#carousel-section-5" data-slide-to="3">ICONS</button>
+        <button type="button" class="btn btn-group bg-white ml-2 mr-2" data-target="#carousel-section-5" data-slide-to="0">ALL</button>
+        <button type="button" class="btn btn-group ml-2 mr-2" data-target="#carousel-section-5" data-slide-to="1">WEB</button>
+        <button type="button" class="btn btn-group ml-2 mr-2" data-target="#carousel-section-5" data-slide-to="2">APPS</button>
+        <button type="button" class="btn btn-group ml-2 mr-2" data-target="#carousel-section-5" data-slide-to="3">ICONS</button>
       </div>
       <div id="carousel-section-5" class="carousel slide" data-interval="false" data-ride="carousel">
         <div class="carousel-inner">
@@ -227,52 +227,52 @@
             <div class="container">
               <div class="row">
                 <div class="col-sm">
-                  <img class="img-fit-section-5" src="img/isoper.png" alt="isometric perspective">
+                  <img class="w-100" src="img/isoper.png" alt="isometric perspective">
                   <p class="pt-3 pb-5">ISOMETRIC PERSPECTIVE MOCK UP</p>
                 </div>
                 <div class="col-sm">
-                  <img class="img-fit-section-5" src="img/timezoneapp.png" alt="time zone app">
+                  <img class="w-100" src="img/timezoneapp.png" alt="time zone app">
                   <p class="pt-3 pb-5">TIME ZONE APP UI</p>
                 </div>
               </div>
               <div class="row">
                 <div class="col-sm">
-                  <img class="img-fit-section-5" src="img/mediaplayers.png" alt="media players">
+                  <img class="w-100" src="img/mediaplayers.png" alt="media players">
                   <p class="pt-3 pb-5">VIRO MEDIA PLAYERS UI</p>
                 </div>
                 <div class="col-sm">
-                  <img class="img-fit-section-5" src="img/blog.png" alt="blog magazine">
+                  <img class="w-100" src="img/blog.png" alt="blog magazine">
                   <p class="pt-3 pb-5">BLOG/MAGAZINE FLAT UI KIT</p>
                 </div>
               </div>
               <div class="collapse" id="more-project">
                 <div class="row">
                   <div class="col-sm">
-                    <img class="img-fit-section-5  img-flip" src="img/isoper.png" alt="isometric perspective">
+                    <img class="w-100" src="img/isoper.png" alt="isometric perspective">
                     <p class="pt-3 pb-5">PU KCOM EVITCEPSREP CIRTEMOSI</p>
                   </div>
                   <div class="col-sm">
-                    <img class="img-fit-section-5 img-flip" src="img/timezoneapp.png" alt="time zone app">
+                    <img class="w-100" src="img/timezoneapp.png" alt="time zone app">
                     <p class="pt-3 pb-5">UI IUPPAENOZ EMIT</p>
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-sm">
-                    <img class="img-fit-section-5 img-flip" src="img/mediaplayers.png" alt="media players">
+                    <img class="w-100" src="img/mediaplayers.png" alt="media players">
                     <p class="pt-3 pb-5">IU SREYALP AIDEM ORIV</p>
                   </div>
                   <div class="col-sm">
-                    <img class="img-fit-section-5 img-flip" src="img/blog.png" alt="blog magazine">
+                    <img class="w-100" src="img/blog.png" alt="blog magazine">
                     <p class="pt-3 pb-5">TIK IU TALF ENIZAGAM\GLOB</p>
                   </div>
                 </div>
               </div>
-              <button class="btn section-5-button mb-5" type="button" data-toggle="collapse" data-target="#more-project" aria-expanded="false" aria-controls="more-project">LOAD MORE PROJECTS</button>
+              <button class="btn btn-2 mb-5" type="button" data-toggle="collapse" data-target="#more-project" aria-expanded="false" aria-controls="more-project">LOAD MORE PROJECTS</button>
             </div>
           </div>
           <div class="carousel-item">
             <div class="container">
-              <iframe class="img-fluid" src="https://www.youtube.com/embed/GqD6AiaRo3U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe class="dimension" src="https://www.youtube.com/embed/GqD6AiaRo3U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
           <div class="carousel-item">
@@ -290,10 +290,10 @@
     </div>
   </div>
 
-  <div class="container-fluid section-6 pt-5 pb-5">
+  <div class="container-fluid bg-6 pt-5 pb-5">
     <div class="container text-center">
-      <h1 class="text-white titres pt-5">WHAT PEOPLE SAY ABOUT US</h1>
-      <img class="img-line mb-2" src="img/line.png" alt="line.png">
+      <h1 class="text-white pt-5">WHAT PEOPLE SAY ABOUT US</h1>
+      <img class="mb-2" src="img/line-opaque.png" alt="line">
       <h5 class="text-white pb-5">Our clients love us!</h5>
     </div>
     <div id="carousel-section-6" class="carousel slide text-center" data-interval="false" data-ride="carousel">
@@ -308,7 +308,7 @@
             <div class="col-md">
               <div class="row">
                 <div class="w-25">
-                  <img class="img-fit-section-6" src="img/gandalf.png" alt="gandalf">
+                  <img class="w-75 rounded-circle" src="img/gandalf.png" alt="gandalf">
                 </div>
                 <div class="w-75 text-left pl-3 pr-5 mb-5">
                   <p class="text-white">"I am a servant of the Secret Fire, wielder of the flame of Anor. You cannot pass.The dark fire will not avail you, flame of Udûn. Go back to the Shadow! You cannot pass."</p>
@@ -320,7 +320,7 @@
             <div class="col-md">
               <div class="row">
                 <div class="w-25">
-                  <img class="img-fit-section-6" src="img/sauron.png" alt="sauron">
+                  <img class="w-75 rounded-circle" src="img/sauron.png" alt="sauron">
                 </div>
                 <div class="w-75 text-left pl-3 pr-5 mb-5">
                   <p class="text-white">"Ash nazg durbatulûk, ash nazg gimbatul, ash nazg thrakatulûk, agh burzum-ishi krimpatul."</p>
@@ -334,7 +334,7 @@
             <div class="col-md">
               <div class="row">
                 <div class="w-25">
-                  <img class="img-fit-section-6" src="img/morpheus.png" alt="morpheus">
+                  <img class="w-75 rounded-circle" src="img/morpheus.png" alt="morpheus">
                 </div>
                 <div class="w-75 text-left pl-3 pr-5 mb-5">
                   <p class="text-white">"What you know you can't explain, but you feel it. You've felt it your entire life, that there's something wrong with the world. You don't know what it is, but it's there, like a splinter in your mind, driving you mad."</p>
@@ -346,7 +346,7 @@
             <div class="col-md">
               <div class="row">
                 <div class="w-25">
-                  <img class="img-fit-section-6" src="img/smith.png" alt="smith">
+                  <img class="w-75 rounded-circle" src="img/smith.png" alt="smith">
                 </div>
                 <div class="w-75 text-left pl-3 pr-5 mb-5">
                   <p class="text-white">"Every mammal on this planet instinctively develops a natural equilibrium with the surrounding environment; but you humans do not. Instead you multiply, and multiply, until every resource is consumed. The only way for you to survive is to spread to another area."</p>
@@ -362,7 +362,7 @@
             <div class="col-md">
               <div class="row">
                 <div class="w-25">
-                  <img class="img-fit-section-6" src="img/chanel-iman.png" alt="chanel iman">
+                  <img class="w-75 rounded-circle" src="img/chanel-iman.png" alt="chanel iman">
                 </div>
                 <div class="w-75 text-left pl-3 pr-5 mb-5">
                   <p class="text-white">"Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque."</p>
@@ -374,7 +374,7 @@
             <div class="col-md">
               <div class="row">
                 <div class="w-25">
-                  <img class="img-fit-section-6" src="img/adriana-lima.png" alt="adriana lima">
+                  <img class="w-75 rounded-circle" src="img/adriana-lima.png" alt="adriana lima">
                 </div>
                 <div class="w-75 text-left pl-3 pr-5 mb-5">
                   <p class="text-white">"Vivamus luctus urna sed urna ultrucies ac tempor dui sagittis. In condimentum facilisis porta."</p>
@@ -388,7 +388,7 @@
             <div class="col-md">
               <div class="row">
                 <div class="w-25">
-                  <img class="img-fit-section-6" src="img/anne-hathaway.png" alt="anne hathaway">
+                  <img class="w-75 rounded-circle" src="img/anne-hathaway.png" alt="anne hathaway">
                 </div>
                 <div class="w-75 text-left pl-3 pr-5 mb-5">
                   <p class="text-white">"Vivamus luctus urna sed urna ultrucies ac tempor dui sagittis. In condimentum facilisis porta."</p>
@@ -400,7 +400,7 @@
             <div class="col-md">
               <div class="row">
                 <div class="w-25">
-                  <img class="img-fit-section-6" src="img/emma-stone.png" alt="emma stone">
+                  <img class="w-75 rounded-circle" src="img/emma-stone.png" alt="emma stone">
                 </div>
                 <div class="w-75 text-left pl-3 pr-5 mb-5">
                   <p class="text-white">"Phasellus non purus vel arcu tempor commodo. Fusce semper, purus vel luctus molestie, risus sem cursus neque."</p>
@@ -416,7 +416,7 @@
             <div class="col-md">
               <div class="row">
                 <div class="w-25">
-                  <img class="img-fit-section-6" src="img/ashleyGreen.png" alt="ashley green">
+                  <img class="w-75 rounded-circle" src="img/ashleyGreen.png" alt="ashley green">
                 </div>
                 <div class="w-75 text-left pl-3 pr-5 mb-5">
                   <p class="text-white">"If you’re using navs to provide a navigation bar, be sure to add a role navigation to the most logical parent container of the ul, or wrap a nav element around the whole navigation. Do not add the role to the ul itself, as this would prevent it from being announced as an actual list by assistive technologies."</p>
@@ -428,7 +428,7 @@
             <div class="col-md">
               <div class="row">
                 <div class="w-25">
-                  <img class="img-fit-section-6" src="img/oliviaWilde.png" alt="olivia wilde">
+                  <img class="w-75 rounded-circle" src="img/oliviaWilde.png" alt="olivia wilde">
                 </div>
                 <div class="w-75 text-left pl-3 pr-5 mb-5">
                   <p class="text-white">"The font-family property should hold several font names as a fallback system, to ensure maximum compatibility between browsers/operating systems. If the browser does not support the first font, it tries the next font."</p>
@@ -442,7 +442,7 @@
             <div class="col-md">
               <div class="row">
                 <div class="w-25">
-                  <img class="img-fit-section-6" src="img/anneHathaway.png" alt="anne hathaway">
+                  <img class="w-75 rounded-circle" src="img/anneHathaway.png" alt="anne hathaway">
                 </div>
                 <div class="w-75 text-left pl-3 pr-5 mb-5">
                   <p class="text-white">"The base nav component is built with flexbox and provide a strong foundation for building all types of navigation components. It includes some style overrides for working with lists, some link padding for larger hit areas, and basic disabled styling."</p>
@@ -454,7 +454,7 @@
             <div class="col-md">
               <div class="row">
                 <div class="w-25">
-                  <img class="img-fit-section-6" src="img/kateUpton.png" alt="kate upton">
+                  <img class="w-75 rounded-circle" src="img/kateUpton.png" alt="kate upton">
                 </div>
                 <div class="w-75 text-left pl-3 pr-5 mb-5">
                   <p class="text-white">"The inline form above feels compressed, and will look much better with Bootstrap's spacing utilities. The following example adds a right margin mr-sm-2 to each input on all devices small and up. And a margin bottom class mb-2 is used to style the input field when it breaks goes from horizontal to vertical due to not enough space/width."</p>
@@ -477,52 +477,52 @@
     </div>
   </div>
 
-  <div class="container-fluid section-7 pt-5 pb-5">
+  <div class="container-fluid bg-7 pt-5 pb-5">
     <div class="container text-center text-white">
-      <h1 class="text-white titres pt-5">GET IN TOUCH</h1>
-      <img class="img-line mb-2" src="img/line.png" alt="line.png">
+      <h1 class="text-white pt-5">GET IN TOUCH</h1>
+      <img class="mb-2" src="img/line-opaque.png" alt="line">
       <h5 class="text-white pb-5">1600 Pennsylvania Ave NW, DC 20500, United States of Almerica. Tel: (202) 456-1111</h5>
       <div class="row">
         <div class="col-lg">
           <div class="form-group">
-            <textarea type="text" class="form-control my-form" id="input-name" aria-describedby="emailHelp">Your Name</textarea>
+            <textarea type="text" class="form-control form" id="input-name" aria-describedby="emailHelp">Your Name</textarea>
           </div>
         </div>
         <div class="col-lg">
           <div class="form-group">
-            <textarea type="email" class="form-control my-form" id="input-email">Your Email</textarea>
+            <textarea type="email" class="form-control form" id="input-email">Your Email</textarea>
           </div>
         </div>
       </div>
       <div class="form-group">
-        <textarea type="text" class="form-control my-form grand-form" id="input-message">Your Message</textarea>
+        <textarea type="text" class="form-control form message-height" id="input-message">Your Message</textarea>
       </div>
-      <button class="btn section-7-button mt-5 mb-5" type="button">SEND MESSAGE</button>
+      <button class="btn btn-3 mt-5 mb-5" type="button">SEND MESSAGE</button>
     </div>
   </div>
 
-  <div class="container-fluid section-8">
+  <div class="container-fluid bg-8">
     <ul class="nav justify-content-center pt-3 pb-3">
-      <li class="nav-item pl-4 pr-4">
-        <a class="nav-link footer-text text-white" href="#">Facebook</a>
+      <li class="nav-item pl-3 pr-3">
+        <a class="nav-link h3 text-white" href="#">Facebook</a>
       </li>
-      <li class="nav-item pl-4 pr-4">
-        <a class="nav-link footer-text" href="#">Twitter</a>
+      <li class="nav-item pl-3 pr-3">
+        <a class="nav-link h3" href="#">Twitter</a>
       </li>
-      <li class="nav-item pl-4 pr-4">
-        <a class="nav-link footer-text text-white" href="#">Google+</a>
+      <li class="nav-item pl-3 pr-3">
+        <a class="nav-link h3 text-white" href="#">Google+</a>
       </li>
-      <li class="nav-item pl-4 pr-4">
-        <a class="nav-link footer-text text-white" href="#">LinkedIn+</a>
+      <li class="nav-item pl-3 pr-3">
+        <a class="nav-link h3 text-white" href="#">LinkedIn+</a>
       </li>
-      <li class="nav-item pl-4 pr-4">
-        <a class="nav-link footer-text text-white" href="#">Behance+</a>
+      <li class="nav-item pl-3 pr-3">
+        <a class="nav-link h3 text-white" href="#">Behance+</a>
       </li>
-      <li class="nav-item pl-4 pr-4">
-        <a class="nav-link footer-text text-white" href="#">Dribbble+</a>
+      <li class="nav-item pl-3 pr-3">
+        <a class="nav-link h3 text-white" href="#">Dribbble+</a>
       </li>
-      <li class="nav-item pl-4 pr-4">
-        <a class="nav-link footer-text text-white" href="#">GitHub+</a>
+      <li class="nav-item pl-3 pr-3">
+        <a class="nav-link h3 text-white" href="#">GitHub+</a>
       </li>
     </ul>
   </div>
