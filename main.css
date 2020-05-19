@@ -13,7 +13,7 @@
   background:    black;
   border-radius: 4px;
   padding:       0.6vw 1vw;
-  width: 6vw;
+  width:         6vw;
   color:         black;
   background-color: #EBC985;
   display:       inline-block;
@@ -21,8 +21,7 @@
   font-size: calc(8px + 0.5vw);
   text-align:    center;
 }
-
-.btn-group:focus { /*Quand un bouton du group est activé et en focus*/
+.btn-group:focus { /*Quand un bouton de cet group est en focus*/
   background-color: black !important;
   color: #FFDD99;
   outline:none;
@@ -70,7 +69,7 @@
   height: 28vw;
 }
 
-.form {
+.form { /*Les formulaire de message*/
   background-color: #273A71;
   border-color: #273A71;
   color: white;

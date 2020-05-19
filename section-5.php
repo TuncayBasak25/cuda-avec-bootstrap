@@ -12,66 +12,58 @@
     <div id="carousel-section-5" class="carousel slide" data-interval="false" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <img class="w-100" src="img/isoper.png" alt="isometric perspective">
+              <p class="pt-3 pb-5">ISOMETRIC PERSPECTIVE MOCK UP</p>
+            </div>
+            <div class="col-sm">
+              <img class="w-100" src="img/timezoneapp.png" alt="time zone app">
+              <p class="pt-3 pb-5">TIME ZONE APP UI</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm">
+              <img class="w-100" src="img/mediaplayers.png" alt="media players">
+              <p class="pt-3 pb-5">VIRO MEDIA PLAYERS UI</p>
+            </div>
+            <div class="col-sm">
+              <img class="w-100" src="img/blog.png" alt="blog magazine">
+              <p class="pt-3 pb-5">BLOG/MAGAZINE FLAT UI KIT</p>
+            </div>
+          </div>
+          <div id="collapse-1" class="collapse">
             <div class="row">
               <div class="col-sm">
                 <img class="w-100" src="img/isoper.png" alt="isometric perspective">
-                <p class="pt-3 pb-5">ISOMETRIC PERSPECTIVE MOCK UP</p>
+                <p class="pt-3 pb-5">PU KCOM EVITCEPSREP CIRTEMOSI</p>
               </div>
               <div class="col-sm">
                 <img class="w-100" src="img/timezoneapp.png" alt="time zone app">
-                <p class="pt-3 pb-5">TIME ZONE APP UI</p>
+                <p class="pt-3 pb-5">UI IUPPAENOZ EMIT</p>
               </div>
             </div>
             <div class="row">
               <div class="col-sm">
                 <img class="w-100" src="img/mediaplayers.png" alt="media players">
-                <p class="pt-3 pb-5">VIRO MEDIA PLAYERS UI</p>
+                <p class="pt-3 pb-5">IU SREYALP AIDEM ORIV</p>
               </div>
               <div class="col-sm">
                 <img class="w-100" src="img/blog.png" alt="blog magazine">
-                <p class="pt-3 pb-5">BLOG/MAGAZINE FLAT UI KIT</p>
+                <p class="pt-3 pb-5">TIK IU TALF ENIZAGAM\GLOB</p>
               </div>
             </div>
-            <div class="collapse" id="more-project">
-              <div class="row">
-                <div class="col-sm">
-                  <img class="w-100" src="img/isoper.png" alt="isometric perspective">
-                  <p class="pt-3 pb-5">PU KCOM EVITCEPSREP CIRTEMOSI</p>
-                </div>
-                <div class="col-sm">
-                  <img class="w-100" src="img/timezoneapp.png" alt="time zone app">
-                  <p class="pt-3 pb-5">UI IUPPAENOZ EMIT</p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-sm">
-                  <img class="w-100" src="img/mediaplayers.png" alt="media players">
-                  <p class="pt-3 pb-5">IU SREYALP AIDEM ORIV</p>
-                </div>
-                <div class="col-sm">
-                  <img class="w-100" src="img/blog.png" alt="blog magazine">
-                  <p class="pt-3 pb-5">TIK IU TALF ENIZAGAM\GLOB</p>
-                </div>
-              </div>
-            </div>
-            <button class="btn btn-2 mb-5" type="button" data-toggle="collapse" data-target="#more-project" aria-expanded="false" aria-controls="more-project">LOAD MORE PROJECTS</button>
           </div>
+          <button class="btn btn-2 mb-5 text-dark" type="button" data-toggle="collapse" data-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">LOAD MORE PROJECTS</button>
         </div>
         <div class="carousel-item">
-          <div class="container">
-            <iframe class="dimension" src="https://www.youtube.com/embed/GqD6AiaRo3U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
+          <iframe class="dimension" src="https://www.youtube.com/embed/GqD6AiaRo3U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="carousel-item">
-          <div class="container">
-            <iframe class="dimension" src="https://www.youtube.com/embed/xD7zYpBK_VU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
+          <iframe class="dimension" src="https://www.youtube.com/embed/xD7zYpBK_VU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="carousel-item">
-          <div class="container">
-            <iframe class="dimension" src="https://www.youtube.com/embed/kLvky2yVUUc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
+          <iframe class="dimension" src="https://www.youtube.com/embed/kLvky2yVUUc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>

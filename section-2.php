@@ -28,7 +28,7 @@
           <div class="col-sm">
             <img class="w-50 mb-5" src="img/rocket.png" alt="rocket">
             <h4 class="">ROCKET SCIENCE</h4>
-            <p class="mt-4 ">>Et harum quidem rerum est et expedita distintio. Nam libero tempore.</p>
+            <p class="mt-4 ">Et harum quidem rerum est et expedita distintio. Nam libero tempore.</p>
           </div>
         </div>
       </div>
