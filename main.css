@@ -12,8 +12,7 @@
 .btn-group {
   background:    black;
   border-radius: 4px;
-  padding:       0.6vw 1vw;
-  width:         6vw;
+  width:         calc(20px + 6vw);
   color:         black;
   background-color: #EBC985;
   display:       inline-block;

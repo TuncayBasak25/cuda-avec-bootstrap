@@ -1,6 +1,6 @@
 <div class="container-fluid bg-1 pt-5 pb-5">
   <div class="container text-center">
-    <nav class="navbar navbar-expand-lg text-right">
+    <nav class="navbar navbar-expand-lg navbar-light text-right">
       <a class="navbar-brand" href="#"><img class="mb-5" src="img/cuda.png" alt="cuda.png"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
