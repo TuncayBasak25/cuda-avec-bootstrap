@@ -57,13 +57,13 @@
           <button class="btn btn-2 mb-5 text-dark" type="button" data-toggle="collapse" data-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">LOAD MORE PROJECTS</button>
         </div>
         <div class="carousel-item">
-          <iframe class="dimension" src="https://www.youtube.com/embed/GqD6AiaRo3U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="dimension" src="https://www.youtube.com/embed/GqD6AiaRo3U" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="carousel-item">
-          <iframe class="dimension" src="https://www.youtube.com/embed/xD7zYpBK_VU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="dimension" src="https://www.youtube.com/embed/xD7zYpBK_VU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="carousel-item">
-          <iframe class="dimension" src="https://www.youtube.com/embed/kLvky2yVUUc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="dimension" src="https://www.youtube.com/embed/kLvky2yVUUc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>
