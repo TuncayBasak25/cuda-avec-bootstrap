@@ -6,17 +6,17 @@
     <div class="row">
       <div class="col-lg">
         <div class="form-group">
-          <textarea type="text" class="form-control form" id="input-name" aria-describedby="emailHelp">Your Name</textarea>
+          <textarea class="form-control form" id="input-name">Your Name</textarea>
         </div>
       </div>
       <div class="col-lg">
         <div class="form-group">
-          <textarea type="email" class="form-control form" id="input-email">Your Email</textarea>
+          <textarea class="form-control form" id="input-email">Your Email</textarea>
         </div>
       </div>
     </div>
     <div class="form-group">
-      <textarea type="text" class="form-control form message-height" id="input-message">Your Message</textarea>
+      <textarea class="form-control form message-height" id="input-message">Your Message</textarea>
     </div>
     <button class="btn btn-3 mt-5 mb-5" type="button">SEND MESSAGE</button>
   </div>
